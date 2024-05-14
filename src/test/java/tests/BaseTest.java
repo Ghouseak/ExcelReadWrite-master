@@ -23,7 +23,7 @@ public class BaseTest {
     @BeforeClass (description = "Class Level Setup!")
     public void setup () {
         //Create a Chrome driver. All test classes use this.
-        System.setProperty("webdriver.chrome.driver", "C://Ghouse//Data Api work//ExcelReadWrite-master//src//test//java//resources//chromedriver//v120//chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C://Ghouse//Data Api work//ExcelReadWrite-master//src//test//java//resources//chromedriver//v122//chromedriver.exe");
         driver = new ChromeDriver();
 
         //Create a wait. All test classes use this.
